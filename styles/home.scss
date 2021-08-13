@@ -1,0 +1,28 @@
+.home {
+    background-color: green;
+    padding-top: 50px;
+    position: relative;
+
+    &__name {
+        position: absolute;
+        left: 5%;
+        top: 60%;
+        background-color: pink;
+    }
+
+    &__h1 {
+        font-size: 38px;
+
+        @media(min-width: 600px) and (min-height: 600px) {
+            font-size: 88px;
+        }
+    }
+
+    &__h2 {
+        font-size: 24px;
+
+        @media(min-width: 600px) and (min-height: 600px) {
+            font-size: 36px;
+        }
+    }
+}
